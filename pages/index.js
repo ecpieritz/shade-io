@@ -17,14 +17,12 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className="container">
-          <Banner
-            title='Make your business powerful with Shade.'
-            description='With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.'
-            btnDesc='Get A Free Quote'
-            imgUrl='/images/sh-banner__img.png'
-          />
-        </div>
+        <Banner
+          title="Make your business powerful with Shade."
+          description="With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes."
+          btnDesc="Get A Free Quote"
+          imgUrl="/images/sh-banner__img.png"
+        />
       </main>
     </>
   );
