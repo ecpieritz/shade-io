@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import WatchBtn from "@/components/WatchBtn";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -22,6 +23,11 @@ export default function Home() {
           description="With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes."
           btnDesc="Get A Free Quote"
           imgUrl="/images/sh-banner__img.png"
+        />
+        <WatchBtn
+          text='Interested how our software works for you?'
+          link=''
+          linkText='Watch our 1 minute video'
         />
       </main>
     </>
