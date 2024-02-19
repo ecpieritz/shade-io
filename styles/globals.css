@@ -8,6 +8,15 @@
   font-family: "Prompt", sans-serif;
 }
 
+:root{
+  --sh-black: #161C2D;
+  --sh-gray: #9e9e9e;
+  --sh-white: #ffffff;
+  --sh-purple: #473BF0;
+  --sh-purple-dark: #2e24b6;
+  --sh-green: #68D585;
+}
+
 h1{
   font-size: 48px;
   font-weight: 700;
