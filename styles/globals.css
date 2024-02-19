@@ -46,3 +46,15 @@ a,
 button{
   font-weight: 700;
 }
+
+.shPurpleBtn{
+  background-color: var(--sh-purple);
+  color: var(--sh-white);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+.shPurpleBtn:hover{
+  background-color: var(--sh-purple-dark);
+}
