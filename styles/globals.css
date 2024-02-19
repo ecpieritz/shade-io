@@ -58,3 +58,31 @@ button{
 .shPurpleBtn:hover{
   background-color: var(--sh-purple-dark);
 }
+
+.shWatchBtn{
+  background-color: var(--sh-black);
+  color: var(--sh-white);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.shWatchBtn img{
+  width: 25px;
+  margin-right: 20px;
+}
+
+.shWatchBtn p{
+  margin: 0;
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.shWatchBtn a{
+  text-decoration: underline;
+  font-weight: 400;
+  color: var(--sh-white);
+  font-size: 20px;
+}
