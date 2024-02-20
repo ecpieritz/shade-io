@@ -5,6 +5,7 @@ import Banner from "@/components/Banner";
 import WatchBtn from "@/components/WatchBtn";
 import Advices from "@/components/Advices";
 import Services from "@/components/Services";
+import Choose from "@/components/Choose";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         />
         <Advices />
         <Services />
+        <Choose />
       </main>
     </>
   );
