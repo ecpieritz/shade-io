@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import WatchBtn from "@/components/WatchBtn";
 import Advices from "@/components/Advices";
+import Services from "@/components/Services";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
           linkText='Watch our 1 minute video'
         />
         <Advices />
+        <Services />
       </main>
     </>
   );
