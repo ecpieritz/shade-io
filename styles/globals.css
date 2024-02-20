@@ -58,6 +58,22 @@ button{
   background-color: var(--sh-purple-dark);
 }
 
+.shPurpleOutlineBtn{
+  background-color: transparent;
+  color: var(--sh-purple) !important;
+  text-decoration: none;
+  font-weight: 700 !important;
+  border: 0;
+}
+
+.shPurpleOutlineBtn img{
+  margin-left: 15px;
+}
+
+.shPurpleOutlineBtn:hover{
+  color: var(--sh-purple-dark) !important;
+}
+
 .shWatchBtn{
   background-color: var(--sh-black);
   color: var(--sh-white);
