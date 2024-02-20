@@ -85,6 +85,29 @@ button{
 }
 
 /* --------------------- */
+/* --- BANNER SECTION --- */
+/* --------------------- */
+.shBanner{
+  padding-top: 60px;
+}
+
+.shBanner h1{
+  padding-top: 100px;
+  width: 80%;
+  line-height: 1.5;
+}
+
+.shBanner p{
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.shBanner img{
+  height: 500px;
+  margin-left: 40px;
+}
+
+/* --------------------- */
 /* --- WATCH BUTTON SECTION --- */
 /* --------------------- */
 .shWatchBtn{

@@ -1,8 +1,6 @@
-import style from '@/styles/Banner.module.css'
-
 export default function Banner(props) {
   return (
-    <section className={style.shBanner}>
+    <section className="shBanner">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
