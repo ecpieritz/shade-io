@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import WatchBtn from "@/components/WatchBtn";
+import Advices from "@/components/Advices";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
           link=''
           linkText='Watch our 1 minute video'
         />
+        <Advices />
       </main>
     </>
   );
