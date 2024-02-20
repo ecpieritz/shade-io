@@ -1,11 +1,9 @@
-import style from "@/styles/Header.module.css";
-
 export default function Header() {
   return (
-    <header className={style.shHeader} id="sh-header">
+    <header className="shHeader" id="sh-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className={style.shBrand} href="/">
+          <a className="shBrand" href="/">
             Shade.io
           </a>
           <button

@@ -85,6 +85,24 @@ button{
 }
 
 /* --------------------- */
+/* --- HEADER SECTION --- */
+/* --------------------- */
+.shHeader{
+  font-size: 18px;
+}
+
+.shBrand{
+  font-size: 40px;
+  color: var(--sh-black);
+  text-decoration: none;
+}
+
+.shBrand:hover{
+  color: var(--sh-purple);
+}
+
+
+/* --------------------- */
 /* --- BANNER SECTION --- */
 /* --------------------- */
 .shBanner{
