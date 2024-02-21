@@ -195,6 +195,16 @@ button{
   color: var(--sh-gray);
 }
 
+.p-10{
+  padding: 80px 0;
+}
 .p-25{
   padding: 200px 0;
+}
+
+/* --------------------- */
+/* --- GROW SECTION --- */
+/* --------------------- */
+.shContact{
+  background-color: var(--sh-green);
 }
