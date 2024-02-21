@@ -2,7 +2,7 @@ import PersonTestimonial from "./PersonTestimonial";
 
 export default function Testimonials() {
   return (
-    <section className="shTestimonials">
+    <section className="shTestimonials" id='sh-testimonials'>
       <div className="container m-10">
         <h1 className="text-center">What people say about us</h1>
         <p className="mx-auto my-4 w-50 text-center ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>

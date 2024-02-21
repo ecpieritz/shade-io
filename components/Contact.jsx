@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="shContact">
+    <section className="shContact" id='sh-contact'>
       <div className="container p-10">
         <h2 className="text-center">Ready to get started?</h2>
 

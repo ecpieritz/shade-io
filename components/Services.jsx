@@ -21,7 +21,7 @@ export default function Services(props) {
   />;
 
   return (
-    <section className="shServices">
+    <section className="shServices" id='sh-services'>
       <div className="container m-10">
         <div className="text-center mb-5">
           <h2>Services we offer for you</h2>
