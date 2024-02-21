@@ -2,9 +2,8 @@
 
 ## 🖥 Preview
 <p align = "center">
-  <img src = "x" width = "700" height = "auto">
-  <img src = "x" width = "350" height = "auto">
-  <img src = "x" width = "350" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/shade-io/ebe99c1efc57e183c2ffdbcda1b11cbb4030cfd1/public/images/sh-prints-01.png" width = "700" height = "auto">
+  <img src = "https://raw.githubusercontent.com/ecpieritz/shade-io/ebe99c1efc57e183c2ffdbcda1b11cbb4030cfd1/public/images/sh-prints-02.png" width = "700" height = "auto">
 </p>
 
 ## 📖 About
