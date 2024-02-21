@@ -7,6 +7,7 @@ import Advices from "@/components/Advices";
 import Services from "@/components/Services";
 import Choose from "@/components/Choose";
 import Grow from "@/components/Grow";
+import Testimonials from "@/components/Testimonials";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
         <Services />
         <Choose />
         <Grow />
+        <Testimonials />
       </main>
     </>
   );
