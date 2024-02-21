@@ -6,6 +6,7 @@ import WatchBtn from "@/components/WatchBtn";
 import Advices from "@/components/Advices";
 import Services from "@/components/Services";
 import Choose from "@/components/Choose";
+import Grow from "@/components/Grow";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         <Advices />
         <Services />
         <Choose />
+        <Grow />
       </main>
     </>
   );
