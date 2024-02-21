@@ -24,10 +24,10 @@ export default function Contact() {
           <div className="form-group mt-3">
             <select id="inputSelect" className="form-control">
               <option selected>Choose 1 option</option>
-              <option>Website</option>
-              <option>App</option>
-              <option>Offline Marketing</option>
-              <option>Rebrand</option>
+              <option>Digital Marketing</option>
+              <option>Content Writing</option>
+              <option>UI/UX Design</option>
+              <option>Website/App creation</option>
             </select>
           </div>
           <div className="form-group mt-3">
