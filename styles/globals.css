@@ -178,3 +178,23 @@ button{
 .shChoose .container .row .col-md-6:last-child{
   padding-top: 60px;
 }
+
+/* --------------------- */
+/* --- GROW SECTION --- */
+/* --------------------- */
+.shGrow{
+  background-image: url('../public/images/sh-help-grow__img.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  color: var(--sh-white);
+}
+
+.shGrow p{
+  color: var(--sh-gray);
+}
+
+.p-25{
+  padding: 200px 0;
+}
