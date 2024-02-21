@@ -9,6 +9,7 @@ import Choose from "@/components/Choose";
 import Grow from "@/components/Grow";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -43,6 +44,8 @@ export default function Home() {
         <Testimonials />
         <Contact />
       </main>
+
+      <Footer />
     </>
   );
 }

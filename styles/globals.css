@@ -208,3 +208,31 @@ button{
 .shContact{
   background-color: var(--sh-green);
 }
+
+/* --------------------- */
+/* --- FOOTER --- */
+/* --------------------- */
+.shFooter{
+  background-color: var(--sh-black);
+  color: var(--sh-white);
+}
+
+.shFooter a{
+  color: var(--sh-gray);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.shFooter a:hover{
+  color: var(--sh-purple);
+}
+
+.shFooter p{
+  color: var(--sh-gray);
+  margin: 0 0 0;
+}
+
+.shFooter .socials img{
+  margin-right: 15px;
+  width: 25px;
+}
