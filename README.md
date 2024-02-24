@@ -13,7 +13,7 @@
 
 ## 🛠 Technologies used
 - Next.js
-- SCSS
+- CSS
 - Bootstrap
 - Javascript
 
