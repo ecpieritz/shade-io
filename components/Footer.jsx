@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -9,41 +10,41 @@ export default function Footer() {
             <p className="my-3">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
 
             <div className="socials">
-              <a href="">
+              <Link href="">
                 <img src="./images/sh-icon__facebook.svg" alt="facebook" />
-              </a>
-              <a href="">
+              </Link>
+              <Link href="">
                 <img src="./images/sh-icon__instagram.svg" alt="instagram" />
-              </a>
-              <a href="">
+              </Link>
+              <Link href="">
                 <img src="./images/sh-icon__linkedin.svg" alt="linkedin" />
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className="col-md-2 d-flex flex-column text-center">
             <h4 className="mb-3">Company</h4>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
-            <a href="">Careers</a>
-            <a href="">Press</a>
+            <Link href="">About Us</Link>
+            <Link href="">Contact Us</Link>
+            <Link href="">Careers</Link>
+            <Link href="">Press</Link>
           </div>
 
           <div className="col-md-2 d-flex flex-column text-center">
             <h4 className="mb-3">Product</h4>
-            <a href="">Features</a>
-            <a href="">Pricing</a>
-            <a href="">News</a>
-            <a href="">Help desk</a>
-            <a href="">Support</a>
+            <Link href="">Features</Link>
+            <Link href="">Pricing</Link>
+            <Link href="">News</Link>
+            <Link href="">Help desk</Link>
+            <Link href="">Support</Link>
           </div>
 
           <div className="col-md-2 d-flex flex-column text-center">
             <h4 className="mb-3">Services</h4>
-            <a href="">Digital Marketing</a>
-            <a href="">Content Writing</a>
-            <a href="">UI/UX Design</a>
-            <a href="">Website/App creation</a>
+            <Link href="">Digital Marketing</Link>
+            <Link href="">Content Writing</Link>
+            <Link href="">UI/UX Design</Link>
+            <Link href="">Website/App creation</Link>
           </div>
 
           <div className="col-md-3 d-flex flex-column align-items-end">

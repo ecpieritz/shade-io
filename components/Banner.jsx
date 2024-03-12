@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Banner(props) {
   return (
     <section className="shBanner">
@@ -7,7 +9,7 @@ export default function Banner(props) {
             <h1>{props.title}</h1>
             <p>{props.description}</p>
 
-            <a href="" className='shPurpleBtn'>{props.btnDesc}</a>
+            <Link href="" className='shPurpleBtn'>{props.btnDesc}</Link>
           </div>
           <div className="col-md-6">
             <img src={props.imgUrl} alt="teste" />

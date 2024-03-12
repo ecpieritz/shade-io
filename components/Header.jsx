@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="shHeader" id="sh-header">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="shBrand" href="/">
+          <Link className="shBrand" href="/">
             Shade.io
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,24 +25,24 @@ export default function Header() {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#sh-header">
+                <Link className="nav-link" href="#sh-header">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#sh-services">
+                <Link className="nav-link" href="#sh-services">
                   Services
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#sh-testimonials">
+                <Link className="nav-link" href="#sh-testimonials">
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#sh-contact">
+                <Link className="nav-link" href="#sh-contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

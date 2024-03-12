@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Card(props) {
   return (
     <>
@@ -8,9 +10,9 @@ export default function Card(props) {
         <p class="card-text">
           {props.cardText}
         </p>
-        <a href="#" class="btn shPurpleOutlineBtn">
+        <Link href="#" class="btn shPurpleOutlineBtn">
           Learn more <img src="./images/sh-icon__right-arrow.png" alt="right arrow" />
-        </a>
+        </Link>
       </div>
     </div>
     </>

@@ -1,9 +1,10 @@
 import Section3Cols from "./Section3Cols";
+import Link from "next/link";
 const adviceCol1 = (
   <>
     <h3>Experienced experts are giving advices.</h3>
     <p className="mt-4 mb-5">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-    <a href="" className='shPurpleBtn'>Learn how we work</a>
+    <Link href="" className='shPurpleBtn'>Learn how we work</Link>
   </>
 );
 
