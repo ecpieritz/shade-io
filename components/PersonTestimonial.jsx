@@ -10,7 +10,7 @@ export default function PersonTestimonial(props) {
         width={60}
         height={60}
       />
-      <p style={{ fontSize: "32px" }}>"{props.testimonial}"</p>
+      <p style={{ fontSize: "32px" }}>{props.testimonial}</p>
       <p>
         <strong>{props.name}</strong> | {props.profission}
       </p>
