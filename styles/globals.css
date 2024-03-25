@@ -183,12 +183,17 @@ button{
 /* --- GROW SECTION --- */
 /* --------------------- */
 .shGrow{
-  background-image: url('../public/images/sh-help-grow__img.png');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 600px;
   color: var(--sh-white);
+}
+
+.shGrow-bg{
+  width: 100% !important;
+  z-index: -10;
+}
+
+.shGrow .container{
+  margin-top: -600px;
 }
 
 .shGrow p{

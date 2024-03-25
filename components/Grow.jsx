@@ -4,6 +4,13 @@ import Image from "next/image";
 export default function Grow() {
   return (
     <section className="shGrow">
+      <Image
+            className="shGrow-bg"
+            src="/images/sh-help-grow__img.png"
+            alt="right arrow"
+            width={1200}
+            height={600}
+          />
       <div className="container p-25 text-center">
         <Link href="" target="blank">
           <Image
