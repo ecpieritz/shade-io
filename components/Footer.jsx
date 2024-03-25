@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,17 +8,35 @@ export default function Footer() {
         <div className="row">
           <div className="col-md-3">
             <h2>Shade.io</h2>
-            <p className="my-3">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+            <p className="my-3">
+              With lots of unique blocks, you can easily build a page without
+              coding. Build your next landing page.
+            </p>
 
             <div className="socials">
               <Link href="">
-                <img src="./images/sh-icon__facebook.svg" alt="facebook" />
+                <Image
+                  src="/images/sh-icon__facebook.svg"
+                  alt="right arrow"
+                  width={25}
+                  height={25}
+                />
               </Link>
               <Link href="">
-                <img src="./images/sh-icon__instagram.svg" alt="instagram" />
+                <Image
+                  src="/images/sh-icon__instagram.svg"
+                  alt="right arrow"
+                  width={25}
+                  height={25}
+                />
               </Link>
               <Link href="">
-                <img src="./images/sh-icon__linkedin.svg" alt="linkedin" />
+                <Image
+                  src="/images/sh-icon__linkedin.svg"
+                  alt="right arrow"
+                  width={25}
+                  height={25}
+                />
               </Link>
             </div>
           </div>
@@ -48,11 +67,11 @@ export default function Footer() {
           </div>
 
           <div className="col-md-3 d-flex flex-column align-items-end">
-              <h4 className="mb-3">Address</h4>
-              <p>5th street, Maguari district</p>
-              <p>Ananindeua - Pará</p>
-              <p>Brazil</p>
-              <p>+55 91 98765-4321</p>
+            <h4 className="mb-3">Address</h4>
+            <p>5th street, Maguari district</p>
+            <p>Ananindeua - Pará</p>
+            <p>Brazil</p>
+            <p>+55 91 98765-4321</p>
           </div>
         </div>
       </div>

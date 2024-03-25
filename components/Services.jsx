@@ -4,19 +4,19 @@ import Section3Cols from "./Section3Cols";
 export default function Services(props) {
   const servicesCol1 = <Card 
     cardTitle="Digital Marketing" 
-    imgUrl="./images/sh-services__card-01.png" 
+    imgUrl="/images/sh-services__card-01.png" 
     cardText="With lots of unique blocks, you can easily build a page without coding. Build your next landing page."
   />;
 
   const servicesCol2 = <Card 
     cardTitle="Business Growth" 
-    imgUrl="./images/sh-services__card-02.png" 
+    imgUrl="/images/sh-services__card-02.png" 
     cardText="With lots of unique blocks, you can easily build a page without coding. Build your next landing page." 
   />;
 
   const servicesCol3 = <Card 
     cardTitle="Content Marketing" 
-    imgUrl="./images/sh-services__card-03.png" 
+    imgUrl="/images/sh-services__card-03.png" 
     cardText="With lots of unique blocks, you can easily build a page without coding. Build your next landing page." 
   />;
 

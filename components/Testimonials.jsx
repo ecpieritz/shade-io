@@ -9,19 +9,19 @@ export default function Testimonials() {
 
         <div className="row">
           <PersonTestimonial 
-            imgUrl='./images/sh-testimonial__01.png'
+            imgUrl='/images/sh-testimonial__01.png'
             testimonial='You made it so simple. My new site is so much faster and easier to work with than my old site.'
             name='Isabella Chavez'
             profission='Graphic Designer'
           />
           <PersonTestimonial 
-            imgUrl='./images/sh-testimonial__02.png'
+            imgUrl='/images/sh-testimonial__02.png'
             testimonial='Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.'
             name='Curtis Rhodes'
             profission='Digital Marketing'
           />
           <PersonTestimonial 
-            imgUrl='./images/sh-testimonial__03.png'
+            imgUrl='/images/sh-testimonial__03.png'
             testimonial='Must have book for all, who want to be Product Designer or Interaction Designer.'
             name='Lucas Mann'
             profission='CEO/Founder'

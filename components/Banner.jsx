@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Banner(props) {
   return (
@@ -9,10 +10,12 @@ export default function Banner(props) {
             <h1>{props.title}</h1>
             <p>{props.description}</p>
 
-            <Link href="" className='shPurpleBtn'>{props.btnDesc}</Link>
+            <Link href="" className="shPurpleBtn">
+              {props.btnDesc}
+            </Link>
           </div>
           <div className="col-md-6">
-            <img src={props.imgUrl} alt="teste" />
+            <Image src={props.imgUrl} alt="banner" width={400} height={400} />
           </div>
         </div>
       </div>
